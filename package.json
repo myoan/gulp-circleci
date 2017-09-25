@@ -1,0 +1,12 @@
+{
+  "name": "gulp-circleci",
+  "version": "1.0.0",
+  "description": "test for circleci deploy using gulp",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/myoan/gulp-circleci.git",
+  "author": "myoan <motoki.yoan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
