@@ -8,6 +8,9 @@ jobs:
     docker:
       - image: yarnpkg/node-yarn
     working_directory: ~/repo
+    branches:
+      only:
+        - master
 
     steps:
       - checkout
