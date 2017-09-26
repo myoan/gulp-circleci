@@ -12,7 +12,6 @@ jobs:
     steps:
       - checkout
       - run: yarn install
-      - run: echo "hello world"
       - run: yarn run gulp deploy
 
 workflows:
