@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run: yarn install
       - run: echo "hello world"
-      - run: yarn exec gulp deploy
+      - run: yarn run gulp deploy
 
       # Download and cache dependencies
       # - restore_cache:
